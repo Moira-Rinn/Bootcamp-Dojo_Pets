@@ -20,7 +20,7 @@ class Ninja:
 
     def bathe(self, pet):
         return (
-            f"*{self.first_name} fills tub with water* {self.pet} wanna take a bath?",
+            f"*{self.first_name} fills tub with water* {pet.name} wanna take a bath?",
             pet.noise()
         )
 
